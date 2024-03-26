@@ -1,0 +1,48 @@
+{
+  "test": "当前语言为中文",
+  "labels": {
+    "select": "视频链接字段",
+    "input": "快手 Cookie",
+    "refresh": "刷新",
+    "checkbox": "需要获取的数据",
+    "submit": "获取数据",
+    "placeholder_select": "请选择快手链接所在字段",
+    "placeholder_input": "请粘贴快手 Cookie",
+    "help_input": "请查看插件使用指南了解如何获取 Cookie",
+    "checkbox_group": {
+      "checkall": "全选",
+      "desc": "文案",
+      "nickname": "作者",
+      "music_title": "音乐名称",
+      "music_author": "音乐作者",
+      "create_time": "发布时间",
+      "digg_count": "点赞量",
+      "comment_count": "评论量",
+      "collect_count": "收藏量",
+      "share_count": "分享量",
+      "fetch_time": "数据获取时间",
+      "error_tips": "错误提示"
+    }
+  },
+  "messages": {
+    "finish": "数据获取完成，总计错误量：",
+    "error": {
+      "no_require": "必选项未填，请检查表单",
+      "url_error": "链接格式错误",
+      "fetch_error": "获取数据失败，请检查链接与 Cookie",
+      "cookie_error": "Cookie 格式错误，建议根据教程重新获取 Cookie！",
+      "table_error": "应在主表中进行操作",
+      "set_error": "写入字段记录失败"
+    },
+    "type_error": {
+      "number": "类型校验失败：类型不是数字",
+      "text": "类型校验失败：类型不是文本",
+      "datetime": "类型校验失败：类型不是日期"
+    }
+  },
+  "text": {
+    "alert_message": "本插件可根据快手短视频/图文链接获取相关数据。",
+    "alert_link": "点我查看插件使用指南",
+    "history_table": "历史记录表"
+  }
+}

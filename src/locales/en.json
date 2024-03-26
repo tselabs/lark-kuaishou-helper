@@ -1,0 +1,48 @@
+{
+  "test": "Current language is English",
+  "labels": {
+    "select": "Video Link Field",
+    "input": "Cookie",
+    "refresh": "Refresh",
+    "checkbox": "Data to be Retrieved",
+    "submit": "Retrieve Data",
+    "placeholder_select": "Please select the field containing the Douyin link",
+    "placeholder_input": "Please paste your Douyin Cookie",
+    "help_input": "Please refer to the plugin usage guide to learn how to obtain the Cookie",
+    "checkbox_group": {
+      "checkall": "Select All",
+      "desc": "Description",
+      "nickname": "Author",
+      "music_title": "Music Title",
+      "music_author": "Music Author",
+      "create_time": "Publish Time",
+      "digg_count": "Likes Count",
+      "comment_count": "Comments Count",
+      "collect_count": "Collection Count",
+      "share_count": "Share Count",
+      "fetch_time": "Data Fetch Time",
+      "error_tips": "Error Tips"
+    }
+  },
+  "messages": {
+    "finish": "Data retrieval completed, total error count:",
+    "error": {
+      "no_require": "Required fields are missing, please check the form",
+      "url_error": "Link format error",
+      "fetch_error": "Failed to retrieve data, please check the link and Cookie",
+      "cookie_error": "Cookie format error, it is recommended to re-obtain the Cookie according to the tutorial!",
+      "table_error": "Operations should be performed in the main table",
+      "set_error": "Failed to write field record"
+    },
+    "type_error": {
+      "number": "Type verification failed: Type is not a number",
+      "text": "Type verification failed: Type is not text",
+      "datetime": "Type verification failed: Type is not a date"
+    }
+  },
+  "text": {
+    "alert_message": "This plugin can retrieve data related to Douyin short videos/images based on the link.",
+    "alert_link": "Click me to view the plugin usage guide",
+    "history_table": "History Record Table"
+  }
+}
